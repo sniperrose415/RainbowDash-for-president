@@ -1,16 +1,51 @@
 body{
     font-family:Tahoma, Geneva, sans-serif;
 }
+div{
+    display:flex;}
+p{
+    background-color:white;
+    color:blue;}
+h3{
+    color:blue;
+    background-color:white;}
 body{
     background-image:url("https://pre00.deviantart.net/fac7/th/pre/f/2016/155/7/f/rainbow_dash_neon_cutie_mark_by_thunder_note-da4z1ho.png");
 }
+ button{
+    width:300px;
+    height:50px;
+    font-size:20px;
+    background:red;
+    color:white;
+    border-radius:5px;
+    border: solid white 3px; 
+    align-content: center;
+    
+}
+#donate button:hover{
+    background:yellow;
+    color:black;}
 h2{
     color:blue;
     background-color:white;}
+    .bur {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 40px 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 40px 0;
+}
 h1{
     font-size: 50px;
     border:7px solid blue;
-    background-color:white;
+    background-image: linear-gradient(to right, red , blue);
 }
     img{
         height:300px;
